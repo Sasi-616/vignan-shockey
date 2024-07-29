@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vignan University Hockey Team</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            margin-top: 0;
+        }
+
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form label {
+            margin-bottom: 5px;
+        }
+
+        form input, form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #004080;
+            color: white;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #003060;
+        }
+
+        .team-member {
+            display: inline-block;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .latest-news article {
+            margin-bottom: 20px;
+        }
+
+        .latest-news article h3 {
+            margin: 0 0 5px;
+        }
+
+        .latest-news article p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Vignan University Hockey Team</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#team">Our Team</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <h2>Welcome to Vignan University Hockey!</h2>
+            <p>Join us for an exciting journey in the world of hockey. Stay updated with our latest matches, events, and news.</p>
+            <div class="latest-news">
+                <h2>Latest News</h2>
+                <article>
+                    <h3>Upcoming Tournament</h3>
+                    <p>Don't miss our upcoming tournament on August 15th. Come and support our team!</p>
+                </article>
+                <article>
+                    <h3>New Training Facility</h3>
+                    <p>We are excited to announce the opening of our new state-of-the-art training facility.</p>
+                </article>
+            </div>
+        </section>
+        
+        <!-- About Us Section -->
+        <section id="about" class="section">
+            <h2>About Vignan University Hockey Team</h2>
+            <div>
+                <h3>Our Mission</h3>
+                <p>To promote the sport of hockey and develop talented athletes at Vignan University.</p>
+            </div>
+            <div>
+                <h3>Our History</h3>
+                <p>Established in 2010, the Vignan University Hockey Team has grown to become a prominent team in the region.</p>
+            </div>
+            <div>
+                <h3>Team Achievements</h3>
+                <ul>
+                    <li>Champions of the 2019 Regional University Hockey Tournament</li>
+                    <li>Semi-finalists in the 2020 National University Hockey Championship</li>
+                    <li>Winners of the 2021 State University Cup</li>
+                    <!-- Add more achievements as needed -->
+                </ul>
+            </div>
+        </section>
+        
+        <!-- Our Team Section -->
+        <section id="team" class="section">
+            <h2>Meet Our Team</h2>
+            <div>
+                <h3>Our Players</h3>
+                <div class="team-member">
+                    <img src="images/player1.jpg" alt="Player 1">
+                    <p>Player 1 - Forward</p>
+                    <p>Achievements: Top scorer in the 2020 season.</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/player2.jpg" alt="Player 2">
+                    <p>Player 2 - Defense</p>
+                    <p>Achievements: Best Defender Award 2021.</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/player3.jpg" alt="Player 3">
+                    <p>Player 3 - Goalkeeper</p>
+                    <p>Achievements: Most Valuable Player 2022.</p>
+                </div>
+                <!-- Add more players as needed -->
+            </div>
+            <div>
+                <h3>Coaching Staff</h3>
+                <div class="team-member">
+                    <img src="images/coach1.jpg" alt="Coach 1">
+                    <p>Coach 1 - Head Coach</p>
+                    <p>Achievements: Coach of the Year 2019.</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/coach2.jpg" alt="Coach 2">
+                    <p>Coach 2 - Assistant Coach</p>
+                    <p>Achievements: Assistant Coach since 2018.</p>
+                </div>
+                <!-- Add more coaches as needed -->
+            </div>
+        </section>
+        
+        <!-- Schedule Section -->
+        <section id="schedule" class="section">
+            <h2>Match Schedule</h2>
+            <ul>
+                <li>August 15th - Match vs. University A</li>
+                <li>September 10th - Match vs. University B</li>
+                <!-- Add more matches as needed -->
+            </ul>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Vignan University Hockey Team. All rights reserved.</p>
+    </footer>
+</body>
+</html>
